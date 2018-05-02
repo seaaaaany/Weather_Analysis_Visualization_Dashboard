@@ -1,8 +1,10 @@
 # Unit 12 | Assignment - Web Visualization Dashboard (Lattitude)
 
-## Website address: https://yycyjqc.github.io/Weather_Analysis_Visualization_Dashboard/index.html
+## Website address: 
 
-<img alt="Landing page large screen" src="images/landing-lg.png" width=600>
+https://yycyjqc.github.io/Weather_Analysis_Visualization_Dashboard/index.html
+
+<img alt="Landing page large screen" src="images/llanding_screenshot.png" width=600>
 
 ## Lattitude - Latitude Analysis Dashboard with Attitude
 
