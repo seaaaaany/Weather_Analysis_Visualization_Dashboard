@@ -1,0 +1,59 @@
+.navbar-brand{
+    font-weight: bold;
+    color: #FCFAFA !important;
+    background: #08BEB5;
+}
+
+.panel-body1{
+    margin: 20pt;
+    font-weight: bold;
+    color: #08BEB5 !important;
+    background: #FCFAFA !important;
+    font-size: 25pt !important;
+}
+
+.panel-body2{
+    margin: 20pt;
+    font-weight: bold;
+    color: #08BEB5 !important;
+    background: #FCFAFA !important;
+    font-size: 18pt !important;
+
+}
+
+.panel{
+    border-style: solid !important;
+}
+
+.Comparison{
+    margin: 20pt;
+    font-weight: bold;
+    color: #08BEB5 !important;
+    background: #FCFAFA !important;
+    font-size: 25pt !important;
+}
+
+.col-md-12{
+    max-width: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #08BEB5 !important;
+    background: #FCFAFA !important;
+    font-size: 18pt !important;
+}
+
+.data_title{
+
+    font-weight: bold;
+    color: #08BEB5 !important;
+    background: #FCFAFA !important;
+    font-size: 25pt !important;
+}
+
+.panel-body{
+    margin: 20pt;
+}
+
+.data_head{
+    font-weight: bold
+}
