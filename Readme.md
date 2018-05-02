@@ -2,7 +2,7 @@
 
 ## Website address: 
 
-https://yycyjqc.github.io/Weather_Analysis_Visualization_Dashboard/index.html
+https://yycyjqc.github.io/Weather_Analysis_Visualization_Dashboard/
 
 <img alt="Landing page large screen" src="images/landing_screenshot.png" width=600>
 
