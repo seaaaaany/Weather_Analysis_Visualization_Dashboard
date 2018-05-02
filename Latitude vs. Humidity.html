@@ -17,7 +17,108 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
+    <div class ="container" style="width:1400px">
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="landing.html">Lattitude</a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Latitude vs. Max Temperature.html">Max Temperature</a></li>
+                                <li><a href="Latitude vs. Humidity.html">Humidity</a></li>
+                                <li><a href="Latitude vs. Cloudiness.html">Cloudiness</a></li>
+                                <li><a href="Latitude vs. Wind Speed.html">Wind Speed</a></li>
+                                <!-- <li role="separator" class="divider"></li> if needed-->
+                            </ul>
+                            </li>
+
+                            <li><a href="comparison.html">Comparison</a></li>
+                            <li><a href="data.html">Data</a></li>
+                        </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+            </nav>
+
+        <!-- add some space -->
+        <br>
+        <br>
+
+        <!-- Left display -->
+        <div id= "left">
+            <div class="col-md-13">
+                <div class="col-md-7">
+                    <!-- page inforamtion -->
+                    <div class="panel panel-default">
+                        <!-- Default panel contents -->
+                        <div class="panel-body1">Summary: Latitude vs. Humidity</div>
+
+                        <br>
+                        <hr>
+                            <div class="panel-body">
+
+                                <img src="https://github.com/yycyjqc/WeatherPy/blob/master/lat_humidity.png?raw=true" alt="Latitude vs. Humidity Plot.png" class="img-thumbnail">
+
+                                <p>As expected, the weather becomes significantly warmer as one approaches the equator(0 Deg. Latitude). More interestingly, however, is the fact.that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+
+            <!-- Right display -->
+            <div class="col-md-5">
+                    <!-- page inforamtion -->
+                    <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                        <div class="panel-body2">Visiualizations</div>
+                        <br>
+                        <br>
+                            <div class="panel-body">
+                                <div class="col-md-12">
+                                    <a href="Latitude vs. Max Temperature.html" class="thumbnail">
+                                        <img src="https://github.com/yycyjqc/WeatherPy/blob/master/lat_temp.png?raw=true" alt="City Latitude vs. Max Temperature.png">
+                                    </a>
+
+                                    <a href="Latitude vs. Humidity.html" class="thumbnail">
+                                        <img src="https://github.com/yycyjqc/WeatherPy/blob/master/lat_humidity.png?raw=true" alt="City Latitude vs. Humidity Plot.png" class="img-thumbnail">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <a href="Latitude vs. Cloudiness.html" class="thumbnail">
+                                        <img src="https://github.com/yycyjqc/WeatherPy/blob/master/lat_cloud.png?raw=true" alt="City Latitude vs. Cloudiness.png" class="img-thumbnail">
+                                    </a>
+
+                                    <a href="Latitude vs. Wind Speed.html" class="thumbnail">
+                                        <img src="https://github.com/yycyjqc/WeatherPy/blob/master/lat_wind.png?raw=true" alt="City Latitude vs. Wind Speed.png" class="img-thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+
+
+
+    </div>
 </body>
 </html>
+
